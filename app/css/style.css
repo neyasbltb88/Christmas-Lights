@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(37, 48, 60);
+}
+
+.test {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.btn_update {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #ffc000;
+    padding: 15px 10px;
+    border: 1px solid #ffc000;
+    background-color: rgba(37, 48, 60, .7);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 99;
+    user-select: none;
+}
