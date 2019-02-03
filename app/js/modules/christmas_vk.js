@@ -39,6 +39,7 @@ export default class ChristmasLightsVK extends ChristmasLights {
 
     // Вызывает удаление/генерацию фонариков и меняет текст в кнопке
     itemsReGenHandler(e) {
+
         let res = this.itemsReGen();
         let option_name = e.currentTarget.querySelector('.option_name');
 

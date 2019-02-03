@@ -109,7 +109,7 @@ export default class ChristmasLights {
                 item.y = 0;
                 requestAnimationFrame(() => this.runItem(index))
             })
-        }, 100);
+        }, 500);
     }
 
     // Запускает движение фонарика
